@@ -7,7 +7,7 @@ export default function Main() {
   return (
     <main>
       {zodiac.map((sign) => (
-        <Zodiac key={sign.id} name={sign.name} dates={sign.date} symbol={sign.symbol} />
+        <Zodiac key={sign.id} name={sign.name} dates={sign.dates} symbol={sign.symbol} />
       ))}
     </main>
   );
