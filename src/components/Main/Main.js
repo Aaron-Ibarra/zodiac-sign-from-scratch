@@ -1,8 +1,14 @@
 import React from 'react';
 import './Main.css';
 import { zodiac } from '../../data.js';
-import Zodiac from 
+import Zodiac from '../Zodiac/Zodiac.js';
 
 export default function Main() {
-  return <div>Main</div>;
+  return (
+    <main>
+      {zodiac.map((sign) => (
+        <Zodiac key={sign.id} name={sign.name} dates={sign.date} symbol={sign.symbol} />
+      ))}
+    </main>
+  );
 }
