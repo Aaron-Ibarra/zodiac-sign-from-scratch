@@ -12,6 +12,9 @@
   text-align: center;
 }
 
+.zodiac img {
+  width: 100px;
+}
 .zodiac .name {
   text-transform: uppercase;
   font-weight: bold;
