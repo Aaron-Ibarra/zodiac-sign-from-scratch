@@ -2,5 +2,5 @@ import './Footer.css';
 import React from 'react';
 
 export default function Footer() {
-  return <footer>Footer</footer>;
+  return <footer>created by Aaron Ibarra</footer>;
 }
